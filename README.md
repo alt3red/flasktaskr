@@ -4,19 +4,15 @@
 ### Configuration
 A _config.py file is required with the following:
 
-import os
+`import os`
 
-basedir = os.path.abspath(os.path.dirname(__file__))
+`basedir = os.path.abspath(os.path.dirname(__file__))`
 
-DATABASE = ''
+`DATABASE = ''`
 
-USERNAME = ''
+`WTF_CSRF_ENABLED = True`
 
-PASSWORD = ''
+`SECRET_KEY = ''`
 
-WTF_CSRF_ENABLED = True
-
-SECRET_KEY = ''
-
-DATABASE_PATH = os.path.join(basedir, DATABASE)
+`DATABASE_PATH = os.path.join(basedir, DATABASE)`
 
